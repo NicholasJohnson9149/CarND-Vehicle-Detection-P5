@@ -27,9 +27,7 @@ This writeup will explain the steps required to create a vehicle detection pipel
 [image7]: ./output_images/false_positives_heatmap.png "heatmap with no threshold "
 [image8]: ./output_images/Heatmap_imgaes.png "heatmap with a threshold of 10"
 [image9]: ./output_images/complete_pipeline_vistralization.png "A complete pipeline visualization"
-[image10]: ./output_images/
-[image11]: ./output_images/
-[image12]: ./output_images/Last-detection-of-video.png "last detection of project video, screen capture from video"
+[image10]: ./output_images/Last-detection-of-video.png "last detection of project video, screen capture from video"
 [video1]: ./output_videos/project_clip_out.mp4 "Final Video with smoothest output boxes"
 
 <!-- ## [Rubric](https://review.udacity.com/#!/rubrics/513/view) Points
@@ -162,7 +160,7 @@ Creating a heatmap threshold in my class had a large impact on removing false po
 
 ### Here the resulting bounding boxes  drawn onto the last frame in the project video. As you can see by using the class to create a heatmap not the find_cars function I'm able to add smoothing to output. This helped eliminate a lot of jitter I struggled to remove in previous renditions of this assignment. 
 
-![alt text][image15]
+![alt text][image10]
 
 ---
 
